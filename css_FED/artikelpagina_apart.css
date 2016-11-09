@@ -1,0 +1,320 @@
+/* MOBIEL OPMAAK CSS*/
+@media only screen and (min-width: 20em){
+.related{
+margin: 1em;
+border:solid 1em #faca33;
+background-color: #faca33;}
+
+.related article{
+background-color: white;
+padding: 1em;
+margin: 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+.related h2{
+text-align: center;}
+
+.related hr{
+border:solid black 0.1em;
+width: 18em;}
+
+main > article > footer h4{
+font-family: verdana;
+margin: 1em;}
+
+footer > p > a{
+background-color: #faca33;
+padding: 0.5em;}
+
+h2,h3,h4{
+font-family: verdana;
+margin: 1em;}
+
+section > ol {
+font-family: verdana;
+line-height: 1.7em;}
+
+/* HEADER CSS Opmaak */
+body > header {
+background-color: #ededed;}
+
+header > h1 {
+font-family: verdana;
+font-size: 2em;
+text-align: center;}
+
+header > img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding:1.5em;}
+
+#zin {
+font-family: verdana;
+line-height: 1.5em;
+text-align: center;}
+
+/* NAVIGATIE CSS */
+nav a {
+color:black;
+font-family: verdana;
+font-size: 1.1em;
+font-weight:bold;
+text-decoration: none;}
+
+nav ul {
+display: block;
+margin-left: -2.5em;
+list-style-type: none;}
+
+nav li {
+background-color: #faca33;
+margin: 0.5em;
+padding: 1em 2em;}
+
+.to-profile {
+font-family: verdana;
+margin: 1.5em;}
+
+p{
+font-family: verdana;
+line-height: 1.7em;
+margin: 1em;}
+
+header> h2{
+margin: 0.7em;
+font-family: verdana;}
+
+main > article > img{
+margin: 1em;
+width: 20em;
+border-radius: 0.5em 0.5em 0.5em;}
+
+/* ZOEKFUNCTIE */
+header > form {
+    margin: 0.5em;}
+
+input[type=search] {
+    background-color: white;
+    background-repeat: no-repeat;
+    border: 0.18em solid #ccc;
+    border-radius: 0.25em;
+    font-size: 1em;
+    padding: 0.8em 0.8em 0.8em 2.5em;
+    width: 19em;}
+
+button[type=submit] {
+    background-color: white;
+    border: 0.18em solid #ccc;
+    border-radius: 0.25em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em 0.8em 0.8em;
+    width: 5em;}
+
+/* Laatste mededelingen - ASIDE */
+aside {
+display: flex;
+flex-wrap: wrap;}
+
+aside section {
+background: #ededed;
+margin: 1em;}
+
+aside > section > article {
+background-color: #faca33;
+margin: 1em;
+padding: 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+aside > section > h2 {
+text-align: center;}
+
+/* FOOTER EIND MOBIEL CSS */
+#footereind {
+display: flex;
+flex-wrap: wrap;
+margin: 1em;
+justify-content: space-around;
+background-color: #faca33;}
+
+#sitemap{
+font-family: verdana;
+line-height: 1.7em;
+background-color: white;
+padding: 1em;
+margin: 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+#contact{
+background-color: white;
+padding: 1em;
+margin: 1em;
+height: 30em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+#about {
+background-color: white;
+padding: 1em;
+margin: 1em;
+width: 25em;
+height: 30em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+#credits{
+text-align: center;}
+
+video {
+width:23em;
+border: solid #faca33 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;
+margin: 1em;}
+
+header > picture img{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+padding:1.5em;}
+
+video{
+display: none;}
+
+}
+
+/* TABLET OPMAAK CSS */
+@media only screen and (min-width: 40em){
+main > article > img{
+width: 30em;}
+
+/* ZOEKFUNCTIE */
+input[type=search] {
+    width: 19em;}
+
+button[type=submit] {
+    width: 5em;}
+
+/* Laatste mededelingen - ASIDE */
+aside {
+display: flex;
+flex-wrap: nowrap;}
+
+/* FOOTER EIND TABLET OPMAAK */
+#footereind {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;}
+
+video {
+display: block;
+width: 40em;}
+
+}
+
+
+@media only screen and (min-width: 60em){
+
+/* CSS OPMAAK */
+.container{
+min-width: 30em;
+display:flex;}
+
+.related{
+min-width: 25em;
+margin: 1em;
+border:solid 1em #faca33;
+background-color: #faca33;
+height: 112em;}
+
+.related article{
+transform: rotate(3deg);}
+
+.related hr{
+width: 25em;}
+
+main {
+min-width: 20em;
+max-width: 65%;}
+
+h2:first-child {
+font-size: 1.8em;}
+
+/* Opleiding tekst */
+h2{
+font-family: verdana;
+margin: 0.7em;
+text-shadow: 0.1em 0.2em darkgrey;}
+
+
+main > article > img{
+width: 30em;}
+
+footer > p a{
+background-color: #faca33;
+font-weight: bold;
+padding: 0.5em;}
+
+/* Header CSS OPMAAK */
+body > header:hover {
+transition: background-color 2s ease;
+background-color: darkgrey;}
+
+/* Zoekfunctie positie */
+header > form {
+margin-left: 3.5em;}
+
+
+nav ul {
+display: flex;
+justify-content:space-around;}
+
+nav li {
+background-color: #faca33;
+margin: 0.5em;
+padding: 1em 2em;}
+
+.to-profile {
+margin-left: 3.5em;}
+
+/* Laatste mededelingen */
+aside {
+display: flex;}
+
+
+aside > section > article:hover {
+transition: background-color 1s ease;
+background-color: whitesmoke;}
+
+#footereind {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin: 1em;
+justify-content: space-around;}
+
+#contact{
+height: 20em;}
+
+video {
+width: 50em;
+border: solid #faca33 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;
+margin: 1em;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

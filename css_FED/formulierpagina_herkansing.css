@@ -1,0 +1,326 @@
+
+/* MOBIEL */
+@media only screen and (min-width: 20em){
+/* NAVIGATIE CSS */
+nav a {
+color:black;
+font-family: verdana;
+font-size: 1.1em;
+font-weight:bold;
+text-decoration: none;}
+
+nav ul {
+display: block;
+margin-left: -2.5em;
+list-style-type: none;}
+
+nav li {
+background-color: #faca33;
+margin: 0.5em;
+padding: 1em 2em;}
+
+header > picture img{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+padding:1.5em;}
+
+.to-profile {
+font-family: verdana;
+margin: 1.1em;}
+
+/* HEADER OPMAAK TABLET */
+header > picture img{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+padding:1.5em;}
+
+.to-profile {
+font-family: verdana;
+margin-left: 2em;}
+
+body > header {
+background-color: #ededed;}
+
+header > h1{
+font-family: verdana;
+font-size: 2em;
+text-align: center;}
+
+header > h2{
+font-family: verdana;
+font-size: 1em;
+text-decoration: underline;
+text-align: center;}
+
+header > p {
+text-align: center;
+font-family: verdana;}
+
+main > p {
+font-family: verdana;
+line-height: 1.7em;
+margin: 1em;}
+
+main > h1{
+font-family: verdana;
+margin: 0.5em;
+text-decoration: underline;}
+
+/* ZOEKFUNCTIE IN HEADER */
+header > form {
+margin-left: -1.9em;}
+
+input[type=search] {
+    background-color: white;
+    border: 0.18em solid #ccc;
+    border-radius: 0.25em;
+    font-size: 1em;
+    padding: 0.8em 0.8em 0.8em 2.5em;
+    width: 20em;
+    margin: 1.5em;}
+
+button[type=submit] {
+    background-color: white;
+    border: 0.18em solid #ccc;
+    border-radius: 0.25em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em 0.8em 0.8em;
+    width: 8em;
+    margin:2.5em;
+    margin-top:-1em;}
+
+/* FORMULIER OPMAAK */
+main > h1 {
+font-family: verdana;
+margin: 0.5em;}
+
+main > form,fieldset,label,textarea{
+display: block;
+padding: 1em;
+font-family: verdana;}
+
+legend {
+  padding: 0.2em 0.5em;
+    font-weight: bold;
+  background-color: #ededed;
+  color:black;
+  text-align:left;}
+
+main >form {
+background-color: #faca33;
+padding: 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;
+margin: 1em;}
+
+fieldset{
+background-color: white;
+padding: 1.5em;
+margin: 1em;}
+
+input[type=submit] {
+background-color: #ededed;
+border: outset;
+box-shadow: 0.2em 0.3em 0em;
+font-family: verdana;
+font-size: 1.2em;
+font-weight: bold;
+margin: 1em 5em;
+padding: 0.5em;}
+
+.related{
+margin: 1em;
+background-color: #ededed;}
+
+.related article{
+background-color:  #faca33;
+font-family: verdana;
+line-height: 1.7em;
+padding: 1em;
+margin: 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+.related h2{
+text-align: center;
+font-family: verdana;
+padding: 1em;}
+
+/* Laatste mededelingen & uitagenda */
+aside {
+display: flex;
+flex-wrap: wrap;}
+
+aside h2{
+text-align: center;}
+
+aside article {
+background-color:  #faca33;
+line-height: 1.8em;
+padding: 1em;
+margin: 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+
+.laatstemededelingen{
+background-color: #ededed;
+border:solid #ededed;
+font-family: verdana;
+margin: 1em;
+padding: 1em;}
+
+/* FOOTER OPMAAK */
+#footereind {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+margin: 1em;
+justify-content: space-around;
+background-color: #faca33;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+#sitemap{
+font-family: verdana;
+line-height: 1.7em;
+background-color: white;
+padding: 1em;
+margin: 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+#contact{
+font-family: verdana;
+line-height: 1.7em;
+background-color: white;
+padding: 1em;
+margin: 1em;
+height: 24em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+#about {
+font-family: verdana;
+line-height: 1.7em;
+background-color: white;
+padding: 1em;
+margin: 1em;
+box-shadow: darkgrey 0.5em 0.5em 0em;}
+
+#credits{
+text-align: center;
+font-family: verdana;}
+
+}
+
+
+/* TABLET */
+@media only screen and (min-width: 40em){
+
+/* KNOP OPMAAK AANMELDEN */
+input[type=submit] {
+margin: 1em 18em;
+padding: 0.5em;}
+
+/* Laatste mededelingen & uitagenda */
+aside {
+display: flex;
+flex-wrap: nowrap;}
+
+/* FOOTER OPMAAK TABLET */
+#footereind {
+display: flex;
+flex-wrap: wrap;}
+
+}
+
+/* CSS OPMAAK */
+@media only screen and (min-width: 60em){
+
+nav ul {
+display: flex;
+justify-content:space-around;
+list-style-type: none;}
+
+.to-profile {
+font-family: verdana;
+margin-left: 3.5em;}
+
+
+/* ZOEKFUNCTIE */
+header > form {
+margin: 1em;}
+
+input[type=search] {
+    padding: 0.8em 0.8em 0.8em 2.5em;
+    width: 20em;}
+
+button[type=submit] {
+    padding: 0.8em 0.8em 0.8em;
+    width: 8em;
+    margin:2.5em;
+    margin-top: -1em;}
+
+/* FORMULIER OPMAAK */
+main > form,fieldset,label,textarea{
+display: block;
+padding: 1em;}
+
+main >form {
+padding: 1em;
+width: 30em;
+margin: 1em;}
+
+input[type=submit] {
+margin: 1em 8em;
+padding: 0.5em;}
+
+/* projecten */
+.container{
+display:flex;
+flex-wrap: nowrap;}
+
+.related article{
+width: 22em;
+margin: 2em;}
+
+/* Laatste mededelingen & uitagenda */
+aside {
+display: flex;}
+
+#footereind {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin: 1em;
+justify-content: space-around;}
+
+#contact{
+height: 20em;}
+
+#about {
+width: 25em;
+height: 25em;}
+
+}
+
+
+
+/*JAVASCRIPT*/
+.form {
+ display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
